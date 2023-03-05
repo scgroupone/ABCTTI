@@ -10,7 +10,7 @@ togglebtn.addEventListener('click',()=>{
 })
 window.addEventListener('DOMContentLoaded',()=>{
     let xhr = new XMLHttpRequest();
-    xhr.open('GET','./data/data.json',true);
+    xhr.open('GET','/data/data.json',true);
     xhr.send();
     xhr.onload = ()=>{
         let display = (courses)=>{
