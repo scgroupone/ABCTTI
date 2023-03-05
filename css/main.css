@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue:#173f5f;
+    --light-blue:#20639b;
+    --green:#3caea3;
+    --yellow:#fff9d6;
+    --orange:#ed553b;
+    --body:#dee1dd;
+    --grey:#28363d;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    min-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--body);
+}
+header{
+    width: 100vw;
+    background-color:var(--grey);/*CHANGE THIS TO YOUR PREFERENCE COLOR*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color:var(--dark-blue) ;/*CHANGE THIS TO YOUR PREFERENCE COLOR*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+/* STYLE THE NAVIGATION BAR */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:var(--grey) ;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.brand{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.brand img{
+    width: 100%;
+    height: 100%;
+}
+nav ul{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+
+}
+nav li{
+    width: 20%;
+    height: 100%;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    /* YOU CAN ADD BACKGROUD COLOR HERE */
+
+}
+nav li:hover{
+ /*CHANGE THIS TO YOUR PREFERENCE COLOR*/
+   background-color: #3caea3;
+
+}
+nav a{
+    font-size: 18PX;
+    text-decoration: none;
+    color: white;/*TEXT COLOR FOR THE NAVIGATION*/
+}
+.toggler{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 45px;
+    height: 20px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: var(--white) 1px solid; */
+
+}
+.bars{
+    width: 100%;
+    height: 15%;
+    background-color:var(--yellow);/*if your background is black, change this to white*/
+    
+
+}
+
+/* NAVIGATION ENDS HERE */
+.bodycontent{
+    width: 100%;
+    min-height: 90vh;
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.landing{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/lead.jpg);
+    background-position: center;
+    background-size: cover;
+    filter:brightness(.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.intro{
+    width: 90%;
+    height: 60%;
+    background-color: black;
+    opacity: .7;
+    border-radius: 10px;
+    margin-top: -150px;
+
+
+
+}
+.intro h1{
+    color:var(--yellow) ;
+    text-align: center;
+
+}
+.intro p{
+    background-color: black;
+    color: #dee1dd;
+    padding: 10px;
+    font-weight: 300;
+}
+.scroller{
+    width: 25px;
+    height: 50px;
+    margin-top: 50px;
+    border: 4px solid var(--orange);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.scroller-icon{
+    width: 60%;
+    height: 40%;
+    border-radius: 20px;
+    margin-top: 4px;
+    background-color: var(--orange);
+    animation: animate infinite 2.5s ease-in-out  ;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(15px);
+    }
+}
+.about{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.row{
+    width: 90%;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: #173f5f 1px solid; */
+
+}
+.card{
+    width: 80%;
+    height:33% ;
+    /* border: #2e5f17 1px solid; */
+    border-radius: 8px;
+    background-color: var(--yellow);
+    box-shadow: 10px 10px 30px #28363d;
+
+
+}
+.card-header{
+    width: 100%;
+    height: 50%;
+    /* border: #2e5f17 1px solid; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+
+
+}
+.card-header img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+
+}
+.card-body{
+    width: 100%;
+    height: 50%;
+}
+.card-body h4{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.card-body p{
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+.courses{
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.course-display{
+    width: 80%;
+    height:auto ;
+    /* border: #2e5f17 1px solid; */
+    border-radius: 8px;
+ 
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.course-display ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* border: #2e5f17 1px solid; */
+
+}
+.course-display li{
+    border: #ababab .5px solid;
+    padding: 10px;
+
+}
+.course{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    background-color: var(--yellow);
+    box-shadow: 10px 10px 30px #28363d;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    width: 81%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.medium{
+     width: 41.67%;
+    height: 55.55%;
+    display: none;
+
+}
+@media screen and (max-width:978px){
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    nav ul{
+        width: 100%;
+    
+        display: none;
+
+        
+
+    }
+    nav li{
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    /* border: blue 1px solid; */
+
+
+    }
+    nav a{
+        padding: 10px;
+    }
+    .toggler{
+        display: flex;
+    }
+    .navbar.active{
+        height: auto;
+    }
+    nav ul.active{
+        display: block;
+    }
+    
+    
+}
+@media screen and (min-width:979px){
+    body{
+        position: relative;
+    }
+    header{
+        position: fixed;
+        top: 0;
+    }
+    .about{
+        border: blue 1px solid;
+    
+            
+        }
+        .row{
+            height: 100%;
+            width: 100%;
+            flex-direction: row;
+        }
+        .card{
+            margin: 10px;
+            width: 40%;
+            height: 60vh;
+        }
+        .card-body h4{
+            font-size: 24px;
+        }
+        .card-body p{
+            font-size: 18px;
+        }
+   
+    .logo{
+        /* border: #68ae3c solid 1px; */
+        width: 30%;
+        height: 100%;
+
+    }
+    .navbarlinks{
+        /* border: #ae753c solid 1px; */
+        width: 40%;
+
+    }
+    .brand{
+        width: 70%;
+        height: 100px;
+    }
+    .intro{
+        width: 70%;
+        margin-top: 50px;
+    }
+    .intro h1{
+        font-size: 34px;
+    }
+    .intro p{
+        font-size: 18px;
+    }
+    .row{
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+    .card{
+        margin: 5px;
+        width: 33%;
+        height: 60vh;
+    }
+    .card-body h4{
+        font-size: 24px;
+    }
+    .card-body p{
+        font-size: 18px;
+    }
+    .course-display{
+        /* display: flex; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .course{
+        width: 45%;
+        /* height:; */
+        float: right;
+        
+    }
+    .course li{
+        font-size: 20px;
+    }
+    .small{
+        display: none;
+    }
+    .medium{
+        display: initial;
+    }
+}

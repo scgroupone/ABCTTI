@@ -1,0 +1,63 @@
+
+[
+{
+"name": "Web Development",
+"description": "Learn to design and develop websites using HTML, CSS, JavaScript, and other relevant web technologies.",
+"duration": "6 months",
+"level": "Beginner to Intermediate"
+},
+{
+"name": "Data Science",
+"description": "Gain a deep understanding of data science concepts, tools, and techniques, including machine learning and data analysis.",
+"duration": "9 months",
+"level": "Intermediate to Advanced"
+},
+{
+"name": "Cybersecurity",
+"description": "Learn how to protect networks, systems, and data from unauthorized access or attacks, including threat modeling, penetration testing, and incident response.",
+"duration": "12 months",
+"level": "Intermediate to Advanced"
+},
+{
+"name": "Cloud Computing",
+"description": "Understand the fundamentals of cloud computing, including deployment models, services, and security, and gain hands-on experience with popular cloud platforms.",
+"duration": "6 months",
+"level": "Beginner to Intermediate"
+},
+{
+"name": "Mobile App Development",
+"description": "Learn to build mobile applications for iOS and Android devices using popular programming languages and development frameworks.",
+"duration": "9 months",
+"level": "Intermediate to Advanced"
+},
+{
+"name": "Artificial Intelligence",
+"description": "Explore the principles and techniques of artificial intelligence, including machine learning, neural networks, and natural language processing.",
+"duration": "12 months",
+"level": "Intermediate to Advanced"
+},
+{
+"name": "Database Administration",
+"description": "Learn how to design, install, configure, and maintain enterprise-level database systems using industry-standard tools and techniques.",
+"duration": "6 months",
+"level": "Intermediate"
+},
+{
+"name": "Digital Marketing",
+"description": "Discover the latest strategies and tactics for building and implementing successful digital marketing campaigns, including social media, email, and search engine optimization.",
+"duration": "9 months",
+"level": "Beginner to Intermediate"
+},
+{
+"name": "Network Engineering",
+"description": "Learn how to design, build, and maintain enterprise-level networks using industry-standard technologies and protocols.",
+"duration": "12 months",
+"level": "Intermediate to Advanced"
+},
+{
+"name": "Python Programming",
+"description": "Master the fundamentals of Python programming, including data types, control structures, functions, and object-oriented programming.",
+"duration": "6 months",
+"level": "Beginner"
+}
+]
