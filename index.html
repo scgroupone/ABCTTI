@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
     
-    <title>ABCTTI</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -16,9 +17,10 @@
                 
             </div>
             <ul class="navbarlinks">
-                <li class="links"><a href="#home">Home</a></li>
+                <li class="links"><a href="/index.html">Home</a></li>
                 <li class="links"><a href="#about">About</a></li>
                 <li class="links"><a href="#courses">Courses</a></li>
+                <li class="links"><a href="#contacts">Contacts</a></li>
                 <li class="links"><a href="#location">Location</a></li>
                 
 
@@ -34,7 +36,7 @@
     </header>
     <!-- END OF HEADER SECTION -->
     <div class="bodycontent">
-        <div class="landing" id="home">
+        <div class="landing">
             <div class="intro">
                 <h1>Hello</h1>
                 <p>
@@ -107,6 +109,49 @@
                
             </div>
         </div>
+        <!-- CONTACT SECTION  -->
+
+        <div class="contacts" id="contacts">
+            <h1>Contact Us</h1>
+            <form action="">
+                <div class="input-group">
+                    <label class="lables" for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" >
+                </div>
+                <div class="input-group">
+                    <label class="lables" for="email">Email</label>
+                    <input type="email" id="email" name="email"class="form-control">
+                </div>
+                <div class="input-group">
+                    <label class="lables" for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control">
+                </div>
+                <div class="input-group">
+                    <label class="lables" for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input-group">
+                    <input type="submit" class="btn" value="Send">
+                </div>
+            </form>
+            <br>
+            <div class="add-info">
+                <div class="info-group">
+                    <p><i class="bi bi-geo-alt-fill"></i> Murang'a, Kenya</p>
+                    <p><i class="bi bi-facebook"></i> abctti_ke</p>
+                    <p><i class="bi bi-whatsapp"></i> +254712345678</p>
+                </div>
+              <div class="info-group">
+                <p><i class="bi bi-instagram"></i> abctti_ke</p>
+                <p><i class="bi bi-telephone-fill"></i> +254712345678</p>
+                <p><i class="bi bi-envelope-fill"></i> info@abctti.co.ke</p>
+              </div>
+       
+
+
+            </div>
+        </div>
+
         <!-- LOCATION SECTION -->
         <div class="location" id="location">
             <h1>Location</h1>
@@ -121,7 +166,7 @@
     </div>
     
     <!-- END OF BODY SECTION -->
-
+    <script src="./bootstrap-icons/bootstrap-icons.json"> </script>
     <script src="./js/main.js"></script>
 </body>
 </html>
